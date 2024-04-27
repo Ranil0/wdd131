@@ -1,17 +1,67 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WDD131-DYNAMIC WEB FUNDAMENTALS - Ranilo A. Policarpio</title>
-  <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Ranilo Ator Policarpio</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. Ranilo Ator Policarpio.
+                This page contains a little bit about me, and promote information
+                about some links to use as a developer.">
+    <meta name="author" content="Ranilo Ator Policarpio">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-  <h1 contenteditable>Header</h1>
-  </header>
-  <div class="left-sidebar" contenteditable>Left Sidebar</div>
-  <main contenteditable></main>
-  <div class="right-sidebar" contenteditable>Right Sidebar</div>
-  <footer contenteditable>Footer Content</footer>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Ranilo Ator Policarpio</h1>
+        <nav>
+            <a  href="https://www.linkedin.com/in/ranilo-policarpio-67094632/"target="_blank">LinkedIn</a>
+            <a  href="https://byui.instructure.com/"target="_blank">I-Learn</a>
+            <a  href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/5?lang=eng&id=38-48"target="_blank">Scripture</a>
+            <a  href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card first-card">
+            <h2 class="card-header">About Me</h2>
+            <p>My name is Ranilo, and I am from Cebu, Philippines. I am presently residing in Baku, Azerbaijan
+                as I join my wife here who works at school as a teacher. I love photography as my one of my hobbies aside 
+                from learning new interesting stuff, like coding. I really enjoy travelling with my families when all of us are present.</p>
+            <img src="images/ranilo.jpg" alt="ranilo's picture">
+
+            <h2 class="second-h2">Philippines</h2>
+            <img src="images/Flag_of_the_Philippines.png" alt="Philippines's flag">
+            <p>The Philippines, officially the Republic of the Philippines, is an archipelagic country 
+			   in Southeast Asia. In the western Pacific Ocean, it consists of 7,641 islands, with a total 
+			   area of 300,000 square kilometers, which are broadly categorized in three main geographical divisions
+			   from north to south: Luzon, Visayas, and Mindanao. The Philippines is bounded by the South China Sea to the
+			   west, the Philippine Sea to the east, and the Celebes Sea to the south. It shares maritime borders with Taiwan
+			   to the north, Japan to the northeast, Palau to the east and southeast, Indonesia to the south, Malaysia to the southwest,
+			   Vietnam to the west, and China to the northwest. It is the world's twelfth-most-populous country, with diverse ethnicities
+			   and cultures. Manila is the country's capital, and its most populated city is Quezon City. Both are within Metro Manila.
+			   (Source: <a href="https://en.wikipedia.org/wiki/Philippines">Wikipedia</a>)</p>
+                    
+        </section>
+
+        <section class="card">
+            <h2 class="card-header">Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://https://htmlreference.io/">HTML Reference</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                <li><a href="https://coolors.co/">Coolors</a></li>
+                <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2024<span id="currentYear"></span> | Ranilo Ator Policarpio | Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>
